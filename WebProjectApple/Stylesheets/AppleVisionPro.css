@@ -1,0 +1,119 @@
+/*/*<!-- Sleidas Sabaliauskas (C23364683)-->*/
+h1{
+	font-weight: bold;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+body {
+	font-family: sans-serif;
+	text-align:left;
+	background-color:#DCDCDC;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.home-button {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.navbar h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.home-button {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+p {
+	font-size:14pt;
+}
+
+div
+{
+    text-align: left;
+    font-size: 30px;
+    color: black;
+}
+.one
+{
+    background-color:#DCDCDC;    
+    float: right;  
+}
+.two
+{ background-color: #4a90e2; 
+    border-radius: 10px;
+    float: right;
+}
+.three
+{
+    background-color: #DCDCDC;
+    justify-content: center;
+    align-items: center;
+}
+.four {
+    background: linear-gradient(to bottom, #4a90e2, #7fb6ec); 
+    border-radius: 10px; 
+    padding: 20px;
+    text-align: center; 
+    position: relative;
+    display: inline-block;
+}
+
+.left-image {
+    max-width: 50%; 
+    display: block; 
+    float: left; 
+    margin-right: 20px; 
+    filter: blur(1px); 
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    right: 25%; 
+    transform: translateY(-50%);
+}
+
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}

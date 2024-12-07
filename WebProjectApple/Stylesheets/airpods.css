@@ -1,0 +1,104 @@
+/*/*<!-- Sleidas Sabaliauskas (C23364683)-->*/
+@import url("AppleVisionPro.css");
+
+.airpods-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.airpods-pro, .airpods-max {
+    flex-basis: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.airpods-pro:hover, .airpods-max:hover {
+    background-color: #f8f9fa;
+}
+
+.airpods-model img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #4a90e2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.one {
+    background-color: #DCDCDC;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.one img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons-overlay {
+    position: absolute;
+    top: 50%;
+    left: -55%;
+    transform: translateY(-50%);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.two {
+    background-color: #4a90e2;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    clear: both;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns items vertically */
+}
+
+.buttons-overlay-left {
+    display: inline-block;
+}
+
+.button-left {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.button-left:hover {
+    background-color: #0056b3;
+}
+
+.two iframe {
+    flex-grow: 1; /* Fills remaining space */
+    margin-left: 20px; /* Adds space between button and video */
+}
